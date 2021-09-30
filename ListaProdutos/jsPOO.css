@@ -1,0 +1,92 @@
+*{
+    /*tira o espaçamento de cima da pagina*/
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafbfc;
+}
+
+header{
+    background-color: rgb(226, 138, 150);
+    padding: 10px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+}
+
+main{
+    /* 1 = horizontal 2 = vertical */
+    padding: 30px 50px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* CAMPOS */
+.lineInput{
+    /* ALINHA TODOS OS CAMPOS */
+    display: grid;
+    margin-bottom: 10px;
+}
+
+
+input{
+    /* TAMANHO DO CAMPO */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    /* tira a barra preta de quando clica no CAMPO */
+    outline: 0;
+}
+button{
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: rgb(226, 138, 150);
+    border-radius: 20px;
+    color: rgb(10, 10, 10);
+    font-weight: bold; 
+    /* transição em segundos da cor do botao */
+    transition: all ease 0.3s;
+}
+
+button:hover{
+    background-color: rgb(236, 90, 110);
+}
+
+.content{
+    margin-top: 15px;
+
+}
+table{
+    /* mudar borda */
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    /* espaçamento entre os campos */
+    width: 100%;
+}
+
+
+table th{
+    background-color: rgb(235, 215, 215);
+   
+}
+
+table th, td{
+    padding: 1px 5px;
+    text-align: left;
+}
+
+table td img {
+    width: 22px;
+}
+.center{
+    text-align: center;
+}
